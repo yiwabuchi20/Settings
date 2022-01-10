@@ -1,0 +1,56 @@
+{
+  "files.insertFinalNewline": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 2,
+  "editor.renderLineHighlight": "all",
+  "editor.glyphMargin": true, // 行の左端に余白を作る
+  "editor.wordWrap": "on", // 右端で折り返す
+  "editor.roundedSelection": true, // 選択範囲の角を丸める
+  "editor.letterSpacing": -0.5, // 文字の間隔を詰める
+  "editor.cursorBlinking": "smooth", // カーソルの表示形式
+  "editor.cursorWidth": 5, // カーソル幅
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "git.autofetch": true,
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.5,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": { // カラーテーマに上書きする個別の設定
+    "statusBar.background": "#000000", // ステータスバー背景色
+    "statusBar.noFolderBackground": "#000000",
+    "statusBar.foreground": "#ffffff", // ステータスバー前景色
+    "statusBar.noFolderForeground": "#ffffff",
+    "statusBar.border": "#ffffff", // ステータスバーの境界線
+    "sideBar.background": "#121817", // サイドバーの背景色
+    "sideBar.foreground": "#ffffff", // サイドバーの前景色
+    "sideBar.border": "#ffffff", // サイドバーの境界線
+    "activityBar.background": "#121817", // アクティビティバーの背景色
+    "activityBar.foreground": "#ffffff", // アクティビティバーの前景色
+    "activityBar.border": "#ffffff", // アクティビティバーの境界線
+    "editor.background": "#121817", // エディタ背景色
+    "editor.lineHighlightBackground": "#002255", // 選択している行の強調色
+    "editor.selectionBackground": "#660000", // 選択領域の強調色
+    "editorError.border": "#ff0000", // エラー部分の下線
+    "editorLineNumber.foreground": "#0077ffbb",
+    "editorLineNumber.activeForeground": "#ffffff",
+    "scrollbarSlider.background": "#0077ff99", // スクロールバーの色
+    "scrollbarSlider.hoverBackground": "#00ccffcc", // 移動中のスクロールバーの色
+    "tab.activeBorder": "#ffffff", // アクティブタブの下線
+    "tab.inactiveForeground": "#999999", // 非選択タブの文字色
+    "editorBracketMatch.background": "#ffff0077",// 対応する括弧の背景色
+    "editorSuggestWidget.selectedBackground": "#0044ff", // サジェスト欄,選択中項目の背景色
+    "scrollbar.shadow": "#0077ff99",
+    "editorLink.activeForeground": "#5555ce",
+  },
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "window.zoomLevel": -1
+}
